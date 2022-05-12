@@ -51,12 +51,12 @@ public class AmazonBuyEmpty {
 
         WebElement amazonMail = driver.findElement(By.id("ap_email"));
         amazonMail.click();
-        amazonMail.sendKeys("konuralpcelikyay@gmail.com" + Keys.ENTER);
+        amazonMail.sendKeys("xxxx@gmail.com" + Keys.ENTER);
         sleep(3000);
 
         WebElement amazonPassword = driver.findElement(By.id("ap_password"));
         amazonPassword.click();
-        amazonPassword.sendKeys("Malatya44"+Keys.ENTER);
+        amazonPassword.sendKeys("yyyyyyxxxxxxyyyy"+Keys.ENTER);
 
         Select departmentSelector = new Select(driver.findElement(By.id("searchDropdownBox")));
 
